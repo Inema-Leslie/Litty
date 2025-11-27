@@ -48,8 +48,8 @@ Litty helps you build consistent reading habits through progress tracking, chall
 #### 1. Clone & Setup
 ```bash
 # Clone both repositories
-git clone https://github.com/Inema-Leslie/litty-frontend
-git clone https://github.com/Inema-Leslie/litty-backend
+git clone https://github.com/Inema-Leslie/Litty-backend 
+git clone https://github.com/Inema-Leslie/Litty-front-end
 
 # Create project directory structure
 mkdir litty-app && cd litty-app

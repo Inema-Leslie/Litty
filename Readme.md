@@ -94,7 +94,8 @@ JWT_SECRET_KEY=your-super-secret-key-here
 JWT_ALGORITHM=HS256
 4. Frontend Setup
 bash
-cd ../litty-frontend
+cd ../litty/front-end/new-app > npm run dev 
+
 
 # Install dependencies
 npm install
@@ -162,7 +163,7 @@ Backend (.env)
 
 env
 DATABASE_URL=postgresql://user:pass@host:port/database
-JWT_SECRET_KEY=your-256-bit-secret
+JWT_SECRET_KEY="your_super_secret_jwt_key_here_make_it_long_and_random"
 JWT_ALGORITHM=HS256
 Frontend (.env)
 
